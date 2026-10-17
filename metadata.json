@@ -1,0 +1,6 @@
+{
+  "name": "TAI RECAP AI",
+  "description": "AI Movie Recap in Burmese (မြန်မာဘာသာဖြင့် ရုပ်ရှင်အကျဉ်းချုပ် AI) with automated scriptwriting, voice studio narration, subtitles, and video rendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

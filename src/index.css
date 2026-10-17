@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: #232838;
+  }
+
+  body {
+    background-color: #090A0F;
+    color: #F3F4F6;
+    font-family: 'Plus Jakarta Sans', 'Padauk', 'Noto Sans Myanmar', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090A0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23293D;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #363F5E;
+}
